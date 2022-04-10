@@ -1,8 +1,3 @@
-// 2
-let myArr = new Array(100);
-    for (let i = 0; i < myArr.length; i++) {
-    console.log(myArr[i]);
-    }
 
 
 // 3
@@ -54,4 +49,10 @@ switch(new Date().getDay()){
     default:
     console.log('new Date().getDay()===other day');
     break;
+}
+
+// 2
+let myArr = new Array(100);
+    for (let i = 0; i < myArr.length; i++) {
+    console.log(myArr[i]);
 }
